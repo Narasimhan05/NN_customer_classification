@@ -83,7 +83,7 @@ def train_model(model, train_loader,criterion,optimizer,epochs):
 
 ### New Sample Data Prediction
 
-Include your sample input and output here
+![image](https://github.com/user-attachments/assets/dce0bb0a-8e33-4b22-8939-5f722352d552)
 
 ## RESULT
-Include your result here
+So, To develop a neural network classification model for the given dataset is executed successfully.
