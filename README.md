@@ -74,11 +74,11 @@ def train_model(model, train_loader,criterion,optimizer,epochs):
 
 ### Confusion Matrix
 
-Include confusion matrix here
+![image](https://github.com/user-attachments/assets/62f45e6f-3530-48f5-b7ad-4d8c398ffe2e)
 
 ### Classification Report
 
-Include Classification Report here
+![image](https://github.com/user-attachments/assets/26102286-85bf-49f6-a21f-fa6308364ff9)
 
 
 ### New Sample Data Prediction
