@@ -67,10 +67,9 @@ def train_model(model, train_loader,criterion,optimizer,epochs):
       print(f"Epoch {epoch+1}/{epochs}, Loss: {loss.item():.4f}")
 ```
 ## Dataset Information
-
+![image](https://github.com/user-attachments/assets/cfdf67f8-6152-4fcb-a6be-c2fb90b3d826)
 
 ## OUTPUT
-
 
 
 ### Confusion Matrix
