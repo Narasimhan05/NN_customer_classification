@@ -31,7 +31,7 @@ Write your own steps
 ### Name: NARASIMHAN S
 ### Register Number: 212223230133
 
-```python
+```
 class PeopleClassifier(nn.Module):
     def __init__(self, input_size):
         super(PeopleClassifier, self).__init__()
@@ -46,14 +46,13 @@ class PeopleClassifier(nn.Module):
       x = F.relu(self.fc3(x))
       x = self.fc4(x)
       return x
-```python
+```
 # Initialize the Model, Loss Function, and Optimizer
 ```
 model = PeopleClassifier(input_size=X_train.shape[1])
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(),lr=0.01)
-```
-```python
+
 def train_model(model, train_loader,criterion,optimizer,epochs):
   for epoch in range(epochs):
     model.train()
@@ -66,7 +65,6 @@ def train_model(model, train_loader,criterion,optimizer,epochs):
 
     if (epoch + 1) % 10 == 0:
       print(f"Epoch {epoch+1}/{epochs}, Loss: {loss.item():.4f}")
-
 ```
 ## Dataset Information
 
